@@ -1,5 +1,5 @@
 # flappy-bird
->[!tip] ¡Bienvenido a mi repositorio de GitHub!
+>¡Bienvenido a mi repositorio de GitHub!
 
 Aquí encontrarás un divertido juego estilo Flappy Bird con un toque único. En lugar de un pájaro, ¡tendrás la oportunidad de jugar como un lindo gato! Además, en lugar del típico fondo, te adentrarás en un ambiente estelar que hará que tus saltos sean aún más emocionantes.
 
