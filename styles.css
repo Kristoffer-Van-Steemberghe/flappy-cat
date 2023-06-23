@@ -1,0 +1,70 @@
+body {
+    background: rgb(210,197,239);
+    font-family: cursive;
+    background: linear-gradient(0deg, rgba(210,197,239,1) 0%, rgba(134,143,214,1) 50%, rgba(59,74,159,1) 100%);
+}
+
+canvas {
+    border: 5px solid #669b4a;
+    border-radius: 10px;
+    display: block;
+    margin: 50px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url(assets/stars-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* haremos que el menú final se superponga al lienzo del juego, por lo que necesitamos aquí un lower z-index */
+    z-index: 1;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 155px;
+}
+
+.backdrop-blur {
+    filter: blur(5px);
+}
+
+#end-menu {
+    /* alternaremos entonces la visualización del menú final */
+    display: none;
+    margin: 50px auto;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 1000;
+}
+
+#score-display {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: #95E06C;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.25s ease;
+}
+
+button:hover {
+    background-color: #95E06C;
+    transform: translateY(-5px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
